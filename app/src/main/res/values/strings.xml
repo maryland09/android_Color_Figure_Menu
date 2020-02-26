@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Цветные фигуры</string>
+    <string name="clear_button_text">Очистить</string>
+</resources>

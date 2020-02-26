@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+    <item android:id="@+id/colors"
+        android:title="Цвет">
+<!--        app:showAsActions="never">-->
+
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="красный" />
+
+            <item
+                android:id="@+id/green"
+                android:title="зеленый" />
+
+            <item android:id="@+id/blue"
+                android:title="синий"/>
+
+            <item android:id="@+id/orange"
+                android:title="оранжевый"/>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/figures"
+        android:title="Фигура">
+<!--        app:showAsActions="never">-->
+
+        <menu>
+            <item android:id="@+id/circle"
+                android:title="круг"/>
+
+            <item android:id="@+id/square"
+                android:title="квадрат"/>
+
+            <item android:id="@+id/rectangle"
+                android:title="прямоугольник"/>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
